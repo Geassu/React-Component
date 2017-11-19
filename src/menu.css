@@ -1,0 +1,22 @@
+.nav {
+    padding: 10px 0;
+    text-align: center;
+    background: lightblue;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0 5px;
+    color: #eee;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    cursor: pointer;
+    color: #999;
+    transition: color 1s;
+}
+
+.nav .menu-active {
+    color: #999;
+}
